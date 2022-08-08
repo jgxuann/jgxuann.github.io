@@ -214,7 +214,7 @@ textarea {
     line-height: 1.65;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1800px) {
 
     body,
     input,
@@ -340,7 +340,7 @@ h7 {
     text-align: center;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1800px) {
     h1 {
         font-size: 3.5em;
     }
@@ -670,7 +670,7 @@ hr.major {
     padding-top: 3em;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1800px) {
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -2998,7 +2998,7 @@ button:disabled,
     width: 100%;
 }
 
-@media screen and (min-width: 1681px) {
+@media screen and (min-width: 1800px) {
     .posts article:nth-child(3n + 1):before {
         display: none;
     }
@@ -3026,7 +3026,7 @@ button:disabled,
     }
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1800px) {
     .posts article {
         width: calc(50% - 6em);
     }
@@ -3036,7 +3036,7 @@ button:disabled,
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1680px) {
+@media screen and (min-width: 481px) and (max-width: 1800px) {
     .posts article:nth-child(2n + 1):before {
         display: none;
     }
@@ -3156,7 +3156,7 @@ button:disabled,
     border-top: 0 !important;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1800px) {
     #main>.inner {
         padding: 0 5em 0.1em 5em;
     }
@@ -3334,7 +3334,7 @@ button:disabled,
     margin-left: -26em;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1800px) {
     #sidebar {
         width: 24em;
     }
@@ -3469,7 +3469,7 @@ button:disabled,
     text-align: right;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1800px) {
     #header {
         padding-top: 5em;
     }

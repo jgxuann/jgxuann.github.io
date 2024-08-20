@@ -1,11 +1,13 @@
 site_name: Guanxuan JIANG
 site_url: https://jgxuann.github.io/
 nav:
-    - Home: index.md
-    #- Demo: demo.md
+  - Home: index.md
+  - Selected Projects: selected_projects.md
+  - Blog: blog.md
 
-# Change themes：
-# （1） conda install -c conda-forge mkdocs-bootswatch
-# （2） https://mkdocs.github.io/mkdocs-bootswatch/#flatly This link contents all available themes
 theme:
-       name: flatly
+  name: flatly
+
+plugins:
+- search
+- git-revision-date

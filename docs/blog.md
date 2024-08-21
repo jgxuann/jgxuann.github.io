@@ -31,8 +31,6 @@ This is my graduation ceremony at the University of Sheffield. I'm thrilled to h
 ##<small>Technical Log 💻</small> 
 🚧Coming soon... 
 
-----
-
 
 <font size = 2>
 _Page last revised on: {{ git_revision_date }}_

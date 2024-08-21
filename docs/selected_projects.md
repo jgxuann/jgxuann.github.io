@@ -77,14 +77,14 @@ Experiments play a crucial role in chemistry education, yet they often require e
 
 <div style="width: 100%; overflow: hidden;">
   <div style="width: calc(200% + 400px); animation: scroll 50s linear infinite; display: flex;">
-    <img src="/media/armb1.png" height="125" style="width: auto;">
-    <img src="/media/armb2.png" height="125" style="width: auto;">
-    <img src="/media/armb3.png" height="125" style="width: auto;">
-    <img src="/media/armb4.png" height="125" style="width: auto;">
-    <img src="/media/armb1.png" height="125" style="width: auto;">
-    <img src="/media/armb2.png" height="125" style="width: auto;">
-    <img src="/media/armb3.png" height="125" style="width: auto;">
-    <img src="/media/armb4.png" height="125" style="width: auto;">
+    <img src="/media/armb1.png" height="126" style="width: auto;">
+    <img src="/media/armb2.png" height="126" style="width: auto;">
+    <img src="/media/armb3.png" height="126" style="width: auto;">
+    <img src="/media/armb4.png" height="126" style="width: auto;">
+    <img src="/media/armb1.png" height="126" style="width: auto;">
+    <img src="/media/armb2.png" height="126" style="width: auto;">
+    <img src="/media/armb3.png" height="126" style="width: auto;">
+    <img src="/media/armb4.png" height="126" style="width: auto;">
   </div>
 </div>
 <div style="text-align: center; margin-top: 10px; font-size: 14px; color: #555;">

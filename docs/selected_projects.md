@@ -8,7 +8,7 @@ My research interests are board, encompassing, but not limited to, human-compute
 
 ###<small>_ChemistryVR: Virtual Reality Chemistry Experiment Simulator_</small>
 <div style="width: 100%; overflow: hidden;">
-  <div style="width: 200%; animation: scroll 40s linear infinite; display: flex;">
+  <div style="width: 200%; animation: scroll 50s linear infinite; display: flex;">
     <img src="/media/lab1.png" width="200" height="auto">
     <img src="/media/lab2.png" width="200" height="auto">
     <img src="/media/lab3.png" width="200" height="auto">
@@ -22,6 +22,9 @@ My research interests are board, encompassing, but not limited to, human-compute
     <img src="/media/lab5.png" width="200" height="auto">
     <img src="/media/lab6.png" width="200" height="auto">
   </div>
+</div>
+<div style="text-align: center; margin-top: 10px; font-size: 14px; color: #555;">
+  These images are screenshots and photographs from this project, 2022.
 </div>
 
 <style>
@@ -73,17 +76,21 @@ Experiments play a crucial role in chemistry education, yet they often require e
 ### <small>_Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality_</small>
 
 <div style="width: 100%; overflow: hidden;">
-  <div style="width: calc(200% + 400px); animation: scroll 40s linear infinite; display: flex;">
-    <img src="/media/armb1.png" height="150" style="width: auto;">
-    <img src="/media/armb2.png" height="150" style="width: auto;">
-    <img src="/media/armb3.png" height="150" style="width: auto;">
-    <img src="/media/armb4.png" height="150" style="width: auto;">
-    <img src="/media/armb1.png" height="150" style="width: auto;">
-    <img src="/media/armb2.png" height="150" style="width: auto;">
-    <img src="/media/armb3.png" height="150" style="width: auto;">
-    <img src="/media/armb4.png" height="150" style="width: auto;">
+  <div style="width: calc(200% + 400px); animation: scroll 50s linear infinite; display: flex;">
+    <img src="/media/armb1.png" height="125" style="width: auto;">
+    <img src="/media/armb2.png" height="125" style="width: auto;">
+    <img src="/media/armb3.png" height="125" style="width: auto;">
+    <img src="/media/armb4.png" height="125" style="width: auto;">
+    <img src="/media/armb1.png" height="125" style="width: auto;">
+    <img src="/media/armb2.png" height="125" style="width: auto;">
+    <img src="/media/armb3.png" height="125" style="width: auto;">
+    <img src="/media/armb4.png" height="125" style="width: auto;">
   </div>
 </div>
+<div style="text-align: center; margin-top: 10px; font-size: 14px; color: #555;">
+  These images are screenshots and photographs from this project, 2023.
+</div>
+
 
 <style>
 @keyframes scroll {

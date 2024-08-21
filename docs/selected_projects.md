@@ -40,7 +40,7 @@ Experiments play a crucial role in chemistry education, yet they often require e
 
 ----
 
-##<small>Augmented Reality</small> 
+<!-- ##<small>Augmented Reality</small> 
 
 ###<small>_Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality_</small>
 <div style="width: 100%; overflow: hidden;">
@@ -53,6 +53,35 @@ Experiments play a crucial role in chemistry education, yet they often require e
     <img src="/media/armb2.png" width="200" height="auto">
     <img src="/media/armb3.png" width="200" height="auto">
     <img src="/media/armb4.png" width="200" height="auto">
+    
+  </div>
+  
+</div>
+
+<style>
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style> -->
+## <small>Augmented Reality</small> 
+
+### <small>_Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality_</small>
+
+<div style="width: 100%; overflow: hidden;">
+  <div style="width: calc(200% + 400px); animation: scroll 40s linear infinite; display: flex;">
+    <img src="/media/armb1.png" height="150" style="width: auto;">
+    <img src="/media/armb2.png" height="150" style="width: auto;">
+    <img src="/media/armb3.png" height="150" style="width: auto;">
+    <img src="/media/armb4.png" height="150" style="width: auto;">
+    <img src="/media/armb1.png" height="150" style="width: auto;">
+    <img src="/media/armb2.png" height="150" style="width: auto;">
+    <img src="/media/armb3.png" height="150" style="width: auto;">
+    <img src="/media/armb4.png" height="150" style="width: auto;">
   </div>
 </div>
 
@@ -66,6 +95,7 @@ Experiments play a crucial role in chemistry education, yet they often require e
   }
 }
 </style>
+
 Online social media has redefined human interaction, yet often at the expense of local engagement. To bridge this gap, we explored the innovative use of Augmented Reality (AR) to enhance location-specific interactions. We developed ARMessageBoard, a pioneering prototype that integrates AR with the user's surroundings to create virtual message boards. This approach aims to enrich the local context often overlooked by digital platforms. In our study with 15 participants, we demonstrated that combining AR with social media could better integrate virtual and real-world interactions, offering a new dimension to socio-digital exchanges. [Please refer to the demo video I uploaded on YouTube](https://youtu.be/6C8JtX9uBx4).
 
 

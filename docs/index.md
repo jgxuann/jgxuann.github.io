@@ -86,7 +86,7 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 <font size=2>
 - __Master of Philosophy (MPhil)__
 
-- Hong Kong University of Science and Technology (HKUST), Guangzhou, China
+- Hong Kong University of Science and Technology(Guangzhou) (HKUSTGZ), Guangzhou, China
 - [Computational Media and Arts Thrust (CMA)](https://cma.hkust-gz.edu.cn/), Information Hub
 - College of Future Technology (CFT)
 - <a href="https://mc2.hkust-gz.edu.cn" target="_blank">Center for <strong>M</strong>etaverse and <strong>C</strong>omputational <strong>C</strong>reativity (MC<sup>2</sup>) Lab</a>

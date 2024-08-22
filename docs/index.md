@@ -286,6 +286,15 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 
 </font>
 
+`May 2019`
+<font size=2>
+- __[The 2019 Changchun International Marathon](https://sports.cctv.com/2019/05/26/VIDELNTiJN30erYlzDndIW38190526.shtml)__
+- Changchun, China
+
+- Volunteered in the International Affairs Department.
+
+</font>
+
 
 ##<small>Publications</small>
 <font size = 2>

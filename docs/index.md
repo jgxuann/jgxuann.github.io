@@ -258,13 +258,19 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 </font>
 
 ##<small>Teachings</small>
-`September 2025`
+`Fall Semester 2025`
 <font size=2>
 - __Teaching Assistant__
 - HKUST-GZ, Guangzhou, China
 
 - UCMP6030 Cross-disciplinary Design Thinking
 
+`September 2025`
+<font size=2>
+- __Instructional Deliver__
+- HKUST-GZ, Guangzhou, China
+
+- PDEV6800 Introduction to Teaching and Learning in Higher Education
 
 </font>
 

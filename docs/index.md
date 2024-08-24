@@ -43,7 +43,7 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 
 <div>
 <div style="float:left">
-	Feel free to reach out to me via <a href="mailto:jgxuann@connect.hkust-gz.edu.cn">gjiang240@connect.hkust-gz.edu.cn</a>
+	Feel free to reach out to me through any method; please refer to my <i><b>contact information</b></i>.
 	<br>
 	<a href="https://github.com/jgxuann" >
 	  <i class="fa fa-github"> </i>
@@ -71,6 +71,16 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 <br>
 
 <br>My name is Guanxuan Jiang (蒋冠宣), and I am an MPhil (Master of Philosophy) student in the <a href="https://www.hkust-gz.edu.cn/" target="_blank"> Hong Kong University of Science and Technology (Guangzhou)</a> with a full scholarship. My research interests are in the fields of Human-Computer Interaction (HCI), Human Behavior, Artificial Intelligence (AI), Virtual Reality (VR) and Augmented Reality (AR). I am member of <a href="https://mc2.hkust-gz.edu.cn" target="_blank">Center for <strong>M</strong>etaverse and <strong>C</strong>omputational <strong>C</strong>reativity (MC<sup>2</sup>) Lab</a>. I obtained my Bachelor of Science with Honour from the <a href="https://www.sheffield.ac.uk/dcs" target="_blank"> University of Sheffield</a> in the department of Computer Science with one-year Study Abroad at the <a href="https://www.cuhk.edu.hk/english/index.html" target="_blank"> Chinese University of Hong Kong</a>, supported by the Global Opportunity Organization and the Turning Scheme.
+
+#####<span style="font-size: 0.8em;"><i><b>Contact Information:</b></i></span>
+<font size=2>
+
+__Office:__ Room 318, Building E1, HKUST-GZ, Guangzhou, China<br>
+__Email:__ gjiang240[at]connect[dot]hkust-gz[dot]edu[dot]cn (academic) or jgxuann[at]outlook[dot]com<br>
+Or anyway you can find me 😎
+
+
+</font>
 
 
 

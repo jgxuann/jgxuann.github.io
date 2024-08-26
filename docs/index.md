@@ -100,7 +100,7 @@ Or anyway you can find me 😎
 - [Computational Media and Arts Thrust (CMA)](https://cma.hkust-gz.edu.cn/), Information Hub
 - College of Future Technology (CFT)
 - <a href="https://mc2.hkust-gz.edu.cn" target="_blank">Center for <strong>M</strong>etaverse and <strong>C</strong>omputational <strong>C</strong>reativity (MC<sup>2</sup>) Lab</a>
-- Keywords: Human-Computer Interaction (HCI), Artificial Intelligence (AI) and Metaverse
+- Keywords: Human-Computer Interaction (HCI), Artificial Intelligence (AI), Metaverse
 - Supervisor: <a href="https://panhui.people.ust.hk/" target="_blank"> Prof Pan Hui</a>, [FRENG](https://raeng.org.uk/news/news-releases/2020/september/academy-welcomes-53-leading-uk-and-international-e), [FIEEE](https://www.computer.org/press-room/2017-news/cs-fellows-2018), [MAE](https://www.ae-info.org/ae/Member/Hui_Pan), [Distinguished Scientist of ACM](https://awards.acm.org/award_winners/hui_1351201)
 - Co-supervisors: <a href="https://ieda.ust.hk/dfaculty/tsung/" target="_blank"> Prof Fugee Tsung</a> and <a href="https://www.louis919.tech" target="_blank"> Prof Yuyang Wang</a>
 
@@ -153,7 +153,22 @@ Or anyway you can find me 😎
 
 ----
 
-##<small>Working Experience</small>
+##<small>Resaerch Experience</small>
+
+<div style="float:right">
+	<img class ="image4" src="./media/cma.png" width="" height="">
+</div>
+
+`May 2022 - October 2022`
+<font size=2>
+- __Laboratory Team Member__
+
+- [Center for <strong>M</strong>etaverse and <strong>C</strong>omputational <strong>C</strong>reativity (MC<sup>2</sup>) Lab</a>](https://mc2.hkust-gz.edu.cn), Guangzhou, China
+- Computational Media and Arts Thrust (CMA)
+- Supervisors: Prof Pan Hui and [Prof Yuyang Wang](https://mc2.hkust-gz.edu.cn/personnel_data/yuyang-wang/)
+- Keywords: Human Computer Interaction (HCI), Artificial Intelligence (AI), Collaboration, Metaverse
+
+</font>
 
 <div style="float:right">
 	<img class ="image4" src="./media/xjtlu.png" width="" height="">
@@ -172,6 +187,13 @@ Or anyway you can find me 😎
 
 
 
+
+
+----
+
+
+##<small>Working Experience</small>
+
 `March 2021 - June 2021`
 <font size=2>
 - __Science and Technology Innovation Division__
@@ -182,6 +204,7 @@ Or anyway you can find me 😎
 </font>
 
 ----
+
 
 ##<small>Fundings</small>
 

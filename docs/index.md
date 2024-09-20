@@ -344,11 +344,11 @@ __Guanxuan Jiang__, Yuyang Wang and Pan Hui<sup>*</sup>. _Experimental Explorati
 Simin Yang, __Guanxuan Jiang__, Reza Hadi Mogavi and Pan Hui<sup>*</sup>. _Digital Pets to Support Psychological Well-being: A Qualitative Study of Ideal Digital Pets from the Perspectives of College Students_. The 44th ACM CHI Conference on Human Factors in Computing Systems. __CHI'25__. Under Review.
 
 __Guanxuan Jiang__, Yuyang Wang, Yue Li, Nafise Sadat Moosavi and Pan Hui, _“Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality”._ In: Proceedings of the 17th ACM International Symposium on Visual Information Communication and
-Interaction. __VINCI 2024__, December 11-13, 2024. Hsinchu, Taiwan. <a href="https://doi.org/10.1145/3678698.3678700" style="display: inline-block; text-decoration: underline;">
+Interaction. __VINCI 2024__, December 11-13, 2024. Hsinchu, Taiwan, China. <a href="https://doi.org/10.1145/3678698.3678700" style="display: inline-block; text-decoration: underline;">
   <span style="font-size: 0.9em;">DOI:</span> 10.1145/3678698.3678700
 </a>
 
-__Guanxuan Jiang<sup>1,2</sup>__, Xunsheng Xia<sup>1, 2</sup>, Yue Li*, Hai-Ning Liang and Pan Hui, _ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations._ 17th ACM Special Interest Group on Computer Graphics Asia, Education Papers. __SIGGRAPH Asia 2024__. Accepted.
+__Guanxuan Jiang<sup>1,2</sup>__, Xunsheng Xia<sup>1, 2</sup>, Yue Li*, Hai-Ning Liang and Pan Hui, _“ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations”._ In: Processding of the 17th ACM Special Interest Group on Computer Graphics Asia, Education Papers. __SIGGRAPH Asia 2024__, December 3-6, 2024. Tokyo, Japan. Accepted (confirmed).
 </font>
 
 <font size = 2>

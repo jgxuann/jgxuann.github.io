@@ -348,7 +348,7 @@ Interaction. __VINCI 2024__, December 11-13, 2024. Hsinchu, Taiwan, China. <a hr
   <span style="font-size: 0.9em;">DOI:</span> 10.1145/3678698.3678700
 </a>
 
-__Guanxuan Jiang<sup>1,2</sup>__, Xunsheng Xia<sup>1, 2</sup>, Yue Li*, Hai-Ning Liang and Pan Hui, _“ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations”._ In: Processding of the 17th ACM Special Interest Group on Computer Graphics Asia, Education Papers. __SIGGRAPH Asia 2024__, December 3-6, 2024. Tokyo, Japan. Accepted (confirmed).
+__Guanxuan Jiang<sup>1,2</sup>__, Xunsheng Xia<sup>1, 2</sup>, Yue Li*, Hai-Ning Liang and Pan Hui, _“ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations”._ In: Processdings of the 17th ACM Special Interest Group on Computer Graphics Asia, Education Papers. __SIGGRAPH Asia 2024__, December 3-6, 2024. Tokyo, Japan. Accepted (confirmed).
 </font>
 
 <font size = 2>

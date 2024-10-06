@@ -32,17 +32,6 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 </style>
 	
 
-<!--
-<div  align="right"> 
-<img src="id.jpg" width="" height="">
-</div>
--->
-
-<!-- <div class="fixed-box">
-  <h3>III</h3>
-  <p>这是我的新闻更新。</p>
-  <p>更多信息...</p>
-</div> -->
 
 # <small>Guanxuan (Grayson) Jiang</small> 
 
@@ -78,6 +67,8 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 
 <br>My name is Guanxuan Jiang (蒋冠宣), and I am an MPhil (Master of Philosophy) student in the <a href="https://www.hkust-gz.edu.cn/" target="_blank"> Hong Kong University of Science and Technology (Guangzhou)</a> with a full scholarship. My research interests are in the fields of Human-Computer Interaction (HCI), Human Behavior, Artificial Intelligence (AI), Virtual Reality (VR) and Augmented Reality (AR). I am member of <a href="https://mc2.hkust-gz.edu.cn" target="_blank">Center for <strong>M</strong>etaverse and <strong>C</strong>omputational <strong>C</strong>reativity (MC<sup>2</sup>) Lab</a>. I obtained my Bachelor of Science with Honour from the <a href="https://www.sheffield.ac.uk/dcs" target="_blank"> University of Sheffield</a> in the department of Computer Science with one-year Study Abroad at the <a href="https://www.cuhk.edu.hk/english/index.html" target="_blank"> Chinese University of Hong Kong</a>, supported by the Global Opportunity Organization and the Turning Scheme. 
 
+蒋冠宣，香港科技大学（广州）哲学硕士（MPhil）学生，全额奖学金获得者。研究兴趣包括人机交互、人类行为分析、人工智能、虚拟现实和增强现实等领域。元宇宙与计算创意中心实验室（MC² Lab）的一员。于英国谢菲尔德大学计算机科学系获得荣誉理学学士学位，并在全球机会组织及转换计划的资助下，在香港中文大学进行了为期一年的海外学习。
+
 #####<span style="font-size: 0.8em;"><i><b>Contact Information:</b></i></span>
 <font size=2>
 
@@ -87,6 +78,28 @@ Or anyway you can find me 😎
 
 
 </font>
+
+----
+
+##<small>Recent News <font size=3>(Scroll)</font></small>
+
+<font size=2>
+<div style="max-height: 150px; display: flex; overflow-y: scroll; line-height: 1.4;">
+<span> <strong>Aug 2024</strong>: "Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality" @ ACM VINCI 2024. See you on 11th December in Hsinchu, Taiwan, China. </span><br/>
+<span> <strong>Sept 2024</strong>: "ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations" @ ACM SIGGRAPH ASIA 2024 Educator's Forum. See you on 3rd December in Tokyo, Japan.</span><br/>
+<span> <strong>March 2024</strong>: I passed my MPhil's PQA defense!</span><br/>
+<span> <strong>Sept 2023</strong>: I joined HKUSTGZ as a MPhil student!</span><br/>
+<span> <strong>July 2023</strong>: I graduated from the University of Sheffield with an Honored BSc.!</span><br/>
+<span> <strong>May 2023</strong>: I passed my thesis defense at University of Sheffield!</span><br/>
+<span> <strong>Apr 2022</strong>: I joined Xi'an Jiaotong Liverpool University as an research assistant.</span><br/>
+<span> <strong>Aug 2021</strong>: I started my summer school program at Peking University.</span><br/>
+<span> <strong>Jan 2021</strong>: I will spend one academic year (Yr2) at Chinese University of Hong Kong as the Study Abroad Program.</span><br/>
+<span> <strong>Oct 2020</strong>: I started my university life at the University of Sheffield.</span><br/>
+</font>
+</div>
+
+
+
 
 
 
@@ -354,8 +367,12 @@ Interaction. __VINCI 2024__, December 11-13, 2024. Hsinchu, Taiwan, China. <a hr
   <span style="font-size: 0.9em;">DOI:</span> 10.1145/3678698.3678700
 </a>
 
-__Guanxuan Jiang<sup>1,2</sup>__, Xunsheng Xia<sup>1, 2</sup>, Yue Li*, Hai-Ning Liang and Pan Hui, _“ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations”._ In: Processdings of the 17th ACM Special Interest Group on Computer Graphics Asia, Education Papers. __SIGGRAPH Asia 2024__, December 3-6, 2024. Tokyo, Japan. Accepted (confirmed).
+__Guanxuan Jiang<sup>1,2</sup>__, Xunsheng Xia<sup>1, 2</sup>, Yue Li*, Hai-Ning Liang and Pan Hui, _“ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations”._ In: Processdings of the 17th ACM Special Interest Group on Computer Graphics Asia, Education Papers. __SIGGRAPH Asia 2024__, December 3-6, 2024. Tokyo, Japan. <a href="https://doi.org/10.1145/3680533.3697068" style="display: inline-block; text-decoration: underline;">
+  <span style="font-size: 0.9em;">DOI:</span> 10.1145/3680533.3697068</a>
 </font>
+
+
+
 
 <font size = 2>
 _Page last revised on: {{ git_revision_date }}_

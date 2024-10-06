@@ -38,6 +38,12 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 </div>
 -->
 
+<!-- <div class="fixed-box">
+  <h3>III</h3>
+  <p>这是我的新闻更新。</p>
+  <p>更多信息...</p>
+</div> -->
+
 # <small>Guanxuan (Grayson) Jiang</small> 
 
 

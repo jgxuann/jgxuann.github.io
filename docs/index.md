@@ -88,8 +88,8 @@ Or anyway you can find me 😎
 
 <font size=2>
 <div style="max-height: 150px; display: flex; overflow-y: scroll; line-height: 1.4;">
-<span> <strong>Aug 2024</strong>: "Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality" @ ACM VINCI 2024. See you on 11th December in Hsinchu, Taiwan, China. </span><br/>
 <span> <strong>Sept 2024</strong>: "ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations" @ ACM SIGGRAPH ASIA 2024 Educator's Forum. See you on 3rd December in Tokyo, Japan.</span><br/>
+<span> <strong>Aug 2024</strong>: "Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality" @ ACM VINCI 2024. See you on 11th December in Hsinchu, Taiwan, China. </span><br/>
 <span> <strong>March 2024</strong>: I passed my MPhil's PQA defense!</span><br/>
 <span> <strong>Sept 2023</strong>: I joined HKUSTGZ as a MPhil student!</span><br/>
 <span> <strong>July 2023</strong>: I graduated from the University of Sheffield with an Honored BSc.!</span><br/>
@@ -361,7 +361,7 @@ Or anyway you can find me 😎
 ##<small>Publications</small>
 <font size = 2>
 
-__Guanxuan Jiang__, Yuyang Wang and Pan Hui<sup>*</sup>. _Experimental Exploration: Investigating Cooperative Interaction Behavior Between Humans and Large Language Model Agents._ The 28th ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing. __CSCW'25__. Under Review.
+__Guanxuan Jiang__, Yuyang Wang and Pan Hui<sup>*</sup>. _Experimental Exploration: Investigating Cooperative Interaction Behavior Between Humans and Large Language Model Agents._ The 28th ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing. __CSCW'25__. Under Review (July 2024 cycle, revising after first-round feedback).
 
 Simin Yang, __Guanxuan Jiang__, Reza Hadi Mogavi and Pan Hui<sup>*</sup>. _Digital Pets to Support Psychological Well-being: A Qualitative Study of Ideal Digital Pets from the Perspectives of College Students_. The 44th ACM CHI Conference on Human Factors in Computing Systems. __CHI'25__. Under Review.
 

@@ -40,6 +40,8 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 <div style="float:left">
 	Feel free to reach out to me through any method; please refer to my <i><b>contact information</b></i>.
 	<br>
+	<span style="color:red;">I am seeking PhD opportunities worldwide for the Fall 2025 intake, particularly in the areas of HCI, HAI, CSCW, and Human Behavior. Please feel free to contact me if you have any openings!</span>
+	<br>
 	<a href="https://github.com/jgxuann" >
 	  <i class="fa fa-github"> </i>
 	</a>
@@ -75,6 +77,7 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 __Office:__ Room 318, Building E1, HKUST-GZ, Guangzhou, China<br>
 __Email:__ gjiang240[at]connect[dot]hkust-gz[dot]edu[dot]cn (academic) or jgxuann[at]outlook[dot]com<br>
 Or anyway you can find me 😎
+
 
 
 </font>

@@ -85,23 +85,71 @@ Or anyway you can find me 😎
 </font>
 
 ----
+## <small>Recent News <font size="3">(Scroll)</font></small>
 
-##<small>Recent News <font size=3>(Scroll)</font></small>
+<font size="2">
+<div style="max-height: 150px; overflow-y: scroll; line-height: 1.4;">
+  <!-- 使用一个 flex 容器 -->
+  <div style="display: flex; flex-direction: column;">
+  
+    <!-- 每个 news item -->
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1px;">
+      <!-- 时间列 -->
+      <span style="flex: 0 0 65px; font-weight: bold;">Sept 2024:</span>
+      <!-- 内容列 -->
+      <span style="flex: 1;">"ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations" @ ACM SIGGRAPH ASIA 2024 Educator's Forum. See you on 3rd December in Tokyo, Japan.</span>
+    </div>
 
-<font size=2>
-<div style="max-height: 150px; display: flex; overflow-y: scroll; line-height: 1.4;">
-<span> <strong>Sept 2024</strong>: "ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations" @ ACM SIGGRAPH ASIA 2024 Educator's Forum. See you on 3rd December in Tokyo, Japan.</span><br/>
-<span> <strong>Aug 2024</strong>: "Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality" @ ACM VINCI 2024. See you on 11th December in Hsinchu, Taiwan, China. </span><br/>
-<span> <strong>March 2024</strong>: I passed my MPhil's PQA defense!</span><br/>
-<span> <strong>Sept 2023</strong>: I joined HKUSTGZ as a MPhil student!</span><br/>
-<span> <strong>July 2023</strong>: I graduated from the University of Sheffield with an Honored BSc.!</span><br/>
-<span> <strong>May 2023</strong>: I passed my thesis defense at University of Sheffield!</span><br/>
-<span> <strong>Apr 2022</strong>: I joined Xi'an Jiaotong Liverpool University as an research assistant.</span><br/>
-<span> <strong>Aug 2021</strong>: I started my summer school program at Peking University.</span><br/>
-<span> <strong>Jan 2021</strong>: I will spend one academic year (Yr2) at Chinese University of Hong Kong as the Study Abroad Program.</span><br/>
-<span> <strong>Oct 2020</strong>: I started my university life at the University of Sheffield.</span><br/>
-</font>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Aug 2024:</span>
+      <span style="flex: 1;">"Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality" @ ACM VINCI 2024. See you on 11th December in Hsinchu, Taiwan, China.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Mar 2024:</span>
+      <span style="flex: 1;">I passed my MPhil's PQA defense!</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Sept 2023:</span>
+      <span style="flex: 1;">I joined HKUSTGZ as a MPhil student!</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">July 2023:</span>
+      <span style="flex: 1;">I graduated from the University of Sheffield with an Honored BSc.!</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">May 2023:</span>
+      <span style="flex: 1;">I passed my thesis defense at University of Sheffield!</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Apr 2022:</span>
+      <span style="flex: 1;">I joined Xi'an Jiaotong Liverpool University as a research assistant.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Aug 2021:</span>
+      <span style="flex: 1;">I started my summer school program at Peking University.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Jan 2021:</span>
+      <span style="flex: 1;">I will spend one academic year (Yr2) at Chinese University of Hong Kong as the Study Abroad Program.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Oct 2020:</span>
+      <span style="flex: 1;">I started my university life at the University of Sheffield.</span>
+    </div>
+    
+  </div>
 </div>
+</font>
+
+
 
 
 

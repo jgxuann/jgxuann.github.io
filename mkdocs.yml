@@ -6,8 +6,7 @@ nav:
   - Blog: blog.md
 
 theme:
-  name: journal
-
+  name: flatly
 
 plugins:
 - search

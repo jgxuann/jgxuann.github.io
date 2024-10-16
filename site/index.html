@@ -135,7 +135,9 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
     .image1{
         border-radius: 100%;
         overflow: hidden;
-        width: 135px;
+        width: 150px;
+        /* border: 5px; 
+        object-fit: cover; */
     }
 
     .image2{
@@ -163,7 +165,7 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 <div style="float:left">
     Feel free to reach out to me through any method; please refer to my <i><b>contact information</b></i>.
     <br>
-    <span style="color:red;">I am seeking PhD opportunities worldwide for the Fall 2025 intake, particularly in the areas of HCI, HAI, CSCW, and Human Behavior. Please feel free to contact me if you have any openings!</span>
+    <span style="color:red;"><b>I am seeking PhD opportunities worldwide for the Fall 2025 intake, particularly in the areas of HCI, HAI, CSCW, and Human Behavior. Please feel free to contact me if you have any openings!</b></span>
     <br>
     <a href="https://github.com/jgxuann" >
       <i class="fa fa-github"> </i>
@@ -198,22 +200,68 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 Or anyway you can find me 😎</p>
 <p></font></p>
 <hr />
-<h2 id="recent-news-scroll"><small>Recent News <font size=3>(Scroll)</font></small></h2>
-<p><font size=2></p>
-<div style="max-height: 150px; display: flex; overflow-y: scroll; line-height: 1.4;">
-<span> <strong>Sept 2024</strong>: "ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations" @ ACM SIGGRAPH ASIA 2024 Educator's Forum. See you on 3rd December in Tokyo, Japan.</span><br/>
-<span> <strong>Aug 2024</strong>: "Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality" @ ACM VINCI 2024. See you on 11th December in Hsinchu, Taiwan, China. </span><br/>
-<span> <strong>March 2024</strong>: I passed my MPhil's PQA defense!</span><br/>
-<span> <strong>Sept 2023</strong>: I joined HKUSTGZ as a MPhil student!</span><br/>
-<span> <strong>July 2023</strong>: I graduated from the University of Sheffield with an Honored BSc.!</span><br/>
-<span> <strong>May 2023</strong>: I passed my thesis defense at University of Sheffield!</span><br/>
-<span> <strong>Apr 2022</strong>: I joined Xi'an Jiaotong Liverpool University as an research assistant.</span><br/>
-<span> <strong>Aug 2021</strong>: I started my summer school program at Peking University.</span><br/>
-<span> <strong>Jan 2021</strong>: I will spend one academic year (Yr2) at Chinese University of Hong Kong as the Study Abroad Program.</span><br/>
-<span> <strong>Oct 2020</strong>: I started my university life at the University of Sheffield.</span><br/>
-</font>
-</div>
+<h2 id="recent-news-scroll"><small>Recent News <font size="3">(Scroll)</font></small></h2>
+<p><font size="2"></p>
+<div style="max-height: 150px; overflow-y: scroll; line-height: 1.4;">
+  <!-- 使用一个 flex 容器 -->
+  <div style="display: flex; flex-direction: column;">
 
+    <!-- 每个 news item -->
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1px;">
+      <!-- 时间列 -->
+      <span style="flex: 0 0 65px; font-weight: bold;">Sept 2024:</span>
+      <!-- 内容列 -->
+      <span style="flex: 1;">"ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations" @ ACM SIGGRAPH ASIA 2024 Educator's Forum. See you on 3rd December in Tokyo, Japan.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 1px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Aug 2024:</span>
+      <span style="flex: 1;">"Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality" @ ACM VINCI 2024. See you on 11th December in Hsinchu, Taiwan, China.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Mar 2024:</span>
+      <span style="flex: 1;">I passed my MPhil's PQA defense!</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Sept 2023:</span>
+      <span style="flex: 1;">I joined HKUSTGZ as a MPhil student!</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">July 2023:</span>
+      <span style="flex: 1;">I graduated from the University of Sheffield with an Honored BSc.!</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">May 2023:</span>
+      <span style="flex: 1;">I passed my thesis defense at University of Sheffield!</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Apr 2022:</span>
+      <span style="flex: 1;">I joined Xi'an Jiaotong Liverpool University as a research assistant.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Aug 2021:</span>
+      <span style="flex: 1;">I started my summer school program at Peking University.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Jan 2021:</span>
+      <span style="flex: 1;">I will spend one academic year (Yr2) at Chinese University of Hong Kong as the Study Abroad Program.</span>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+      <span style="flex: 0 0 65px; font-weight: bold;">Oct 2020:</span>
+      <span style="flex: 1;">I started my university life at the University of Sheffield.</span>
+    </div>
+
+  </div>
+</div>
+<p></font></p>
 <hr />
 <h2 id="education"><small>Education</small></h2>
 <div style="float:right">
@@ -438,7 +486,7 @@ Interaction. <strong>VINCI 2024</strong>, December 11-13, 2024. Hsinchu, Taiwan,
   <span style="font-size: 0.9em;">DOI:</span> 10.1145/3680533.3697068</a>
 </font></p>
 <p><font size = 2>
-<em>Page last revised on: 2024-10-15</em>
+<em>Page last revised on: 2024-10-16</em>
 </font></p>
 <!-- The globe collects visitor statistics
 <div align="center">
@@ -549,5 +597,5 @@ Find more here: https://sharethis.com/zh-tw/
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2024-10-15 08:38:35.813933+00:00
+Build Date UTC : 2024-10-16 05:45:12.381732+00:00
 -->

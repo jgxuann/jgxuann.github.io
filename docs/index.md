@@ -8,7 +8,9 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 	.image1{
 		border-radius: 100%;
 		overflow: hidden;
-		width: 135px;
+		width: 150px;
+		/* border: 5px; 
+		object-fit: cover; */
 	}
 	
 	.image2{
@@ -40,7 +42,7 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 <div style="float:left">
 	Feel free to reach out to me through any method; please refer to my <i><b>contact information</b></i>.
 	<br>
-	<span style="color:red;">I am seeking PhD opportunities worldwide for the Fall 2025 intake, particularly in the areas of HCI, HAI, CSCW, and Human Behavior. Please feel free to contact me if you have any openings!</span>
+	<span style="color:red;"><b>I am seeking PhD opportunities worldwide for the Fall 2025 intake, particularly in the areas of HCI, HAI, CSCW, and Human Behavior. Please feel free to contact me if you have any openings!</b></span>
 	<br>
 	<a href="https://github.com/jgxuann" >
 	  <i class="fa fa-github"> </i>

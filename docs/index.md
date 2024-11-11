@@ -71,7 +71,7 @@ The method for setting picture border：https://blog.csdn.net/ProgramChangesWorl
 
 <br>My name is Guanxuan Jiang (蒋冠宣), and I am an MPhil (Master of Philosophy) student in the <a href="https://www.hkust-gz.edu.cn/" target="_blank"> Hong Kong University of Science and Technology (Guangzhou)</a> with a full scholarship. My research interests are in the fields of Human-Computer Interaction (HCI), Human Behavior, Artificial Intelligence (AI), Virtual Reality (VR) and Augmented Reality (AR). I am member of <a href="https://mc2.hkust-gz.edu.cn" target="_blank">Center for <strong>M</strong>etaverse and <strong>C</strong>omputational <strong>C</strong>reativity (MC<sup>2</sup>) Lab</a>. I obtained my Bachelor of Science with Honour from the <a href="https://www.sheffield.ac.uk/dcs" target="_blank"> University of Sheffield</a> in the department of Computer Science with one-year Study Abroad at the <a href="https://www.cuhk.edu.hk/english/index.html" target="_blank"> Chinese University of Hong Kong</a>, supported by the Global Opportunity Organization and the Turning Scheme. 
 
-蒋冠宣，香港科技大学（广州）哲学硕士（MPhil）学生，全额奖学金获得者。研究兴趣包括人机交互、人类行为分析、人工智能、虚拟现实和增强现实等领域。元宇宙与计算创意中心实验室（MC² Lab）的一员。于英国谢菲尔德大学计算机科学系获得荣誉理学学士学位，并在全球机会组织及转换计划的资助下，在香港中文大学进行了为期一年的海外学习。
+蒋冠宣，香港科技大学（广州）哲学硕士（MPhil）学生，全额奖学金获得者。研究兴趣包括人机交互、人类行为分析、人工智能和混合现实等领域。元宇宙与计算创意中心实验室（MC² Lab）的一员。于英国谢菲尔德大学计算机科学系获得荣誉理学学士学位，并在全球机会组织及转换计划的资助下，在香港中文大学进行了为期一年的海外学习。
 
 #####<span style="font-size: 0.8em;"><i><b>Contact Information:</b></i></span>
 <font size=2>
@@ -216,7 +216,7 @@ Or anyway you can find me 😎
 	<img class ="image4" src="./media/pku.png" width="" height="">
 </div>
 
-`July 2021 - August 2021 `
+`June 2021 - August 2021 `
 <font size=2>
 - __Summer School__
 

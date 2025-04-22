@@ -496,15 +496,35 @@
 
   </div>
   <script>
-    document.getElementById('timestamp').innerHTML =
-      'Last updated: ' + new Date().toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-        timeZoneName: 'short'
-      });
+    async function fetchLastModified() {
+      const owner = "jgxuann"; // 替换为你的 GitHub 用户名
+      const repo = "homepage-main"; // 替换为你的仓库名
+      const filePath = "index.html"; // 替换为文件路径
+      const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits?path=${filePath}&per_page=1`;
+
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error("Failed to fetch commit data");
+        }
+        const data = await response.json();
+        const lastCommitDate = new Date(data[0].commit.author.date);
+        document.getElementById('timestamp').innerHTML =
+          'Last updated: ' + lastCommitDate.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            timeZoneName: 'short'
+          });
+      } catch (error) {
+        console.error("Error fetching last modified date:", error);
+        document.getElementById('timestamp').innerHTML = "Last updated: Unable to fetch";
+      }
+    }
+
+    fetchLastModified();
   </script>
 
   <br>

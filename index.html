@@ -111,7 +111,7 @@
 
 
 
-      <!-- <a class="normal" href="./services/">Services</a> -->
+      <a class="normal" href="services.html">Services</a>
 
 
 
@@ -496,12 +496,12 @@
 
 
   </div>
+
   <script>
     async function fetchLastModified() {
       const owner = "jgxuann";
       const repo = "jgxuann.github.io";
-      const filePath = "index.html";
-      const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits?path=${filePath}&per_page=1`;
+      const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`;
 
       try {
         const response = await fetch(apiUrl);

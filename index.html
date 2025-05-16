@@ -491,11 +491,23 @@
         <a href="https://github.com/yaoyao-liu/minimal-light" rel="noopener">Thanks to the template contributors for
           making the code freely available.</a>
         <br>
-        <span id="timestamp"></span>
+        <span id="last-update-time"></span>
       </div>
 
 
   </div>
+
+  <script>
+    const lastMod = new Date(document.lastModified);
+    const options = {
+      year: 'numeric', month: 'short', day: 'numeric',
+      hour: '2-digit', minute: '2-digit', second: '2-digit',
+      hour12: false,
+      timeZoneName: 'short'
+    };
+    document.getElementById('last-update-time').textContent =
+      'Last Update: ' + lastMod.toLocaleString('en-US', options);
+  </script>
 
   <br>
 

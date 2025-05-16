@@ -502,11 +502,17 @@
       const owner = "jgxuann";
       const repo = "jgxuann.github.io";
       const apiUrl = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`;
+      const token = "***REMOVED***";
 
       try {
-        const response = await fetch(apiUrl);
+        const response = await fetch(apiUrl, {
+          headers: {
+            Authorization: `token ${token}`
+          }
+        });
         if (!response.ok) {
-          throw new Error("Failed to fetch commit data");
+          const errorText = await response.text();
+          throw new Error(`Failed to fetch commit data. Status: ${response.status}, Message: ${errorText}`);
         }
         const data = await response.json();
         const lastCommitDate = new Date(data[0].commit.author.date);

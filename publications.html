@@ -1058,7 +1058,7 @@
 
 
 
-      <br>
+
 
     </section>
     <footer>
@@ -1069,10 +1069,24 @@
 
           </small>
         </p>
+        <div style="text-align:center; margin-top:10px;">
+          Last Update: <span id="last-update-time"></span>
+        </div>
       </div>
       <br>
       <br>
     </footer>
+    <script>
+      const lastMod = new Date(document.lastModified);
+      const options = {
+        year: 'numeric', month: 'short', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false,
+        timeZoneName: 'short'
+      };
+      document.getElementById('last-update-time').textContent =
+        lastMod.toLocaleString('en-US', options);
+    </script>
   </div>
   <script src="/assets/js/scale.fix.js"></script>
 </body>

@@ -54,6 +54,7 @@
   <link rel="stylesheet" href="./assets/css/pub.css">
   <link rel="stylesheet" href="./assets/css/nav.css">
   <link rel="stylesheet" href="./assets/css/news.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
 
   <!-- <link rel="stylesheet" href="https://cdn.brand.HKUST.edu/HKUST.css"> -->
 
@@ -145,7 +146,39 @@
       line-height: 30px;
       height: 30px;
     }
+
+    .rednote-link {
+      color: #e63946 !important;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .rednote-link:hover {
+      text-decoration: underline;
+    }
+
+
+    .research-inline-toggle {
+      display: inline;
+    }
+
+    .research-inline-toggle a {
+      color: #666;
+      text-decoration: none;
+      font-weight: 200;
+    }
+
+    .research-inline-toggle a:hover {
+      color: #555;
+    }
+
+    .research-details-block {
+      margin-top: 0.5rem;
+      color: #666;
+    }
   </style>
+
+
 
   <div class="wrapper">
     <header>
@@ -188,7 +221,10 @@
         <a style="margin: 0 0 0 0" href="https://orcid.org/my-orcid?orcid=0009-0001-3686-6266/">
           <i class="fab fa-orcid" style="font-size:1.2rem"></i>
         </a>
+
+
       </div>
+
 
       <br>
 
@@ -211,19 +247,28 @@
         MPhil period, my supervisors are Prof. Pan Hui and <a
           herf="https://seng.hkust.edu.hk/about/people/faculty/fugee-tsung">Prof. Fugee Tsung</a>.
 
-      <p>Currently, my research <strong>interests</strong> lie at the intersection of <strong>Human-centered
-          Computing</strong>, <strong>Ubiquitous
-          Computing</strong>,
-        <strong>Multi-modality Sensing</strong>, <strong> Behavoir Modeling & Analysis</strong> and
-        <strong>Extended Reality</strong>. More specifically, my research interest focuses on advancing our
-        understanding of the interplay between <strong><span style="color: #ff6600;">humans</strong></span>,
+      <p>Currently, my research interests lie at the intersection of <strong>Human-Computer
+          Interaction</strong>, <strong>Ubiquitous Computing</strong>, <strong>Human-AI Collaboration</strong>,
+        <strong>Multimodal</strong>,
+        <strong>Behavior
+          Modeling</strong> and
+        <strong>Mixed Reality</strong>. More specifically, my research focuses on advancing our
+        understanding of the interplay between <strong><span style="color: #ff6600;">humans</span></strong>,
         <strong><span style="color: #1BA784;">intelligent
-            systems</span> </strong> and
-        <strong><span style="color: #2376b7;">real-world environments</span></strong> in which they interact. It
-        primarily unfolds along two complementary reinforcing directions. (1) I model user intention and
-        behavior from human-centered multimodal data to inform the design of more pervasive computational interactions.
-        (2) Building on this understanding of human–system interaction, I develop advanced computational methods and
-        frameworks to systematically address challenges that arise during interaction.
+            systems & devices</span></strong> and
+        <strong><span style="color: #2376b7;">real-world environments</span></strong> in which they interact<span
+          class="research-inline-toggle"><a href="javascript:void(0)"
+            onclick="var box=document.getElementById('research-details-block');box.style.display=(box.style.display==='block'?'none':'block');">
+            [details]</a></span>.
+      </p>
+      <div id="research-details-block" class="research-details-block" style="display:none;">My work primarily unfolds
+        along two complementary and mutually reinforcing directions. (1) I model user intention and behavior from
+        human-centered multimodal data to inform the design of more pervasive computational interactions. (2) Building
+        on this understanding of human–system interaction, I develop advanced computational methods and frameworks to
+        systematically address challenges that arise during interaction.</div>
+      <p class="research-callout-minimal">
+        For representative recent work on these research directions, see
+        <a href="publications.html">Publications.</a>
       </p>
 
       <p>Previously, I completed my BSc. (Hons) in Computer Science at <a href="https://www.sheffield.ac.uk/?home">
@@ -231,7 +276,12 @@
           of Sheffield</a> and <a herf="https://www.cuhk.edu.hk/english/index.html">Chinese University of Hong
           Kong</a>.
         I also spent time at <a href="https://www.oir.pku.edu.cn/index.html">Peking Univerisity</a> and <a
-          href="https://www.xjtlu.edu.cn/en">Xi'an Jiaotong-Liverpool University</a>.</p>
+          href="https://www.xjtlu.edu.cn/en">Xi'an Jiaotong-Liverpool University</a>.
+        <!--You are also welcome to follow my
+        <a href="YOUR_XHS_LINK" target="_blank" class="rednote-link">Rednote</a>,
+        where I share related work and ideas, and I'd be happy to discuss them with you.
+          -->
+      </p>
 
       <!-- <h2 style="margin: 60px 0px 10px;">News</h2> -->
       <!-- <ul>
@@ -288,6 +338,17 @@
       <h2 style="margin: 60px 0px 10px;">News</h2>
 
       <ul class="news-list">
+
+        <li>
+          <span class="news-date">[Apr. 2026]</span>
+          <span class="news-content">
+            One paper has been accepted to <a href="https://2026.aclweb.org">ACL 2026</a>.
+          </span>
+        </li>
+
+
+
+
         <li>
           <span class="news-date">[Jan. 2026]</span>
           <span class="news-content">
@@ -607,8 +668,8 @@
       <h2 style="margin: 60px 0px 10px;">Research Experience</h2>
       <div class="education-container">
         <div class="education-info">
-          <div class="edu-date">Jul. 2023 - now</div>
-          <div class="edu-degree">Research Student</div>
+          <div class="edu-date">Sep. 2023 - now</div>
+          <div class="edu-degree">Research Graduate</div>
           <div class="edu-school">Hong Kong Univerisity of Science and Technology (Guangzhou)</div>
           <div class="edu-details">
             • Computational Media and Arts Thrust, Information Hub <br>
@@ -626,7 +687,7 @@
       <div class="education-container">
         <div class="education-info">
           <div class="edu-date">Sep. 2025 - now</div>
-          <div class="edu-degree">Research Student</div>
+          <div class="edu-degree">Research Graduate</div>
           <div class="edu-school">Hong Kong Univerisity of Science and Technology (Guangzhou)</div>
           <div class="edu-details">
             • Computational Media and Arts Thrust, Information Hub <br>

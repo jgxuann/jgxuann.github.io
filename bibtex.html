@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BibTeX</title>
+    <style>
+        body {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .bib-item {
+            margin-bottom: 40px;
+        }
+
+        .bib-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .copy-btn {
+            display: inline-block;
+            margin-bottom: 12px;
+            padding: 8px 14px;
+            border: 1px solid #ccc;
+            background: #fff;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        .copy-btn:hover {
+            background: #f5f5f5;
+        }
+
+        pre {
+            background: #f7f7f7;
+            border: 1px solid #ddd;
+            padding: 16px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BibTeX</h1>
+
+    <div class="bib-item" id="j1">
+        <div class="bib-title">When Trust Collides: Exploring Human-LLM Cooperation Intention through the Prisoner's
+            Dilemma</div>
+        <button class="copy-btn" onclick="copyBib('bib-j1')">Copy BibTeX</button>
+        <pre id="bib-j1">@article{jiang2026whentrustcollides,
+            title = {When trust collides: Exploring human-LLM cooperation intention through the prisoner's dilemma},
+            journal = {International Journal of Human-Computer Studies},
+            volume = {209},
+            pages = {103740},
+            year = {2026},
+            issn = {1071-5819},
+            doi = {https://doi.org/10.1016/j.ijhcs.2026.103740},
+            url = {https://www.sciencedirect.com/science/article/pii/S1071581926000157},
+            author = {Guanxuan Jiang and Shirao Yang and Yuyang Wang and Pan Hui},
+        }</pre>
+    </div>
+
+
+    <div class="bib-item" id="c2-w">
+        <div class="bib-title">ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations
+        </div>
+        <button class="copy-btn" onclick="copyBib('bib-c2-w')">Copy BibTeX</button>
+        <pre id="bib-c2-w">@inproceedings{10.1145/3680533.3697068,
+            author = {Jiang, Guanxuan and Xia, Xuansheng and Li, Yue and Liang, Hai-Ning and Hui, Pan},
+            title = {ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations},
+            year = {2024},
+            isbn = {9798400711367},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3680533.3697068},
+            doi = {10.1145/3680533.3697068},
+            articleno = {1},
+            numpages = {5},
+            series = {SA '24}
+        }</pre>
+    </div>
+
+
+    <div class="bib-item" id="c1">
+        <div class="bib-title">Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through
+            Augmented Reality</div>
+        <button class="copy-btn" onclick="copyBib('bib-c1')">Copy BibTeX</button>
+        <pre id="bib-c1">@inproceedings{10.1145/3678698.3678700,
+            author = {Jiang, Guanxuan and Wang, Yuyang and Li, Yue and Moosavi, Nafise Sadat and Hui, Pan},
+            title = {Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality},
+            year = {2024},
+            isbn = {9798400709678},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3678698.3678700},
+            doi = {10.1145/3678698.3678700},
+            booktitle = {Proceedings of the 17th International Symposium on Visual Information Communication and Interaction},
+            articleno = {23},
+            numpages = {8},
+            series = {VINCI '24}
+        }</pre>
+    </div>
+
+    <script>
+        function copyBib(id) {
+            const text = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                alert("BibTeX copied!");
+            });
+        }
+    </script>
+</body>
+
+</html>

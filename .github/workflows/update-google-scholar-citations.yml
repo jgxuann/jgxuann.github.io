@@ -1,0 +1,31 @@
+name: Update Google Scholar citations
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install crawler dependencies
+        run: pip install -r google_scholar_crawler/requirements.txt
+      - name: Fetch citation counts from Google Scholar
+        run: python google_scholar_crawler/main.py
+      - name: Commit updated citation data
+        run: |
+          git add assets/data/google-scholar-citations.json
+          git diff --cached --quiet || (
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: update Google Scholar citation counts'
+            git push
+          )

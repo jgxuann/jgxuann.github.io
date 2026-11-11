@@ -1,63 +1,41 @@
-from scholarly import scholarly
-import jsonpickle
+"""Export per-paper citation counts from Guanxuan Jiang's Google Scholar profile."""
+
 import json
-from datetime import datetime
 import os
+from datetime import datetime, timezone
+from pathlib import Path
 
-author: dict = scholarly.search_author_id('Qi2PSmEAAAAJ')
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-name = author['name']
-author['updated'] = str(datetime.now())
-author['publications'] = {v['author_pub_id']:v for v in author['publications']}
-print(json.dumps(author, indent=2))
-os.makedirs('results', exist_ok=True)
-with open(f'results/gs_data.json', 'w') as outfile:
-    json.dump(author, outfile, ensure_ascii=False)
+from scholarly import scholarly
 
-shieldio_data = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['citedby']}",
-}
-with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
-    json.dump(shieldio_data, outfile, ensure_ascii=False)
 
-shieldio_data_mtl = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['publications']['Qi2PSmEAAAAJ:Tyk-4Ss8FVUC']['num_citations']}",
-}
-with open(f'results/gs_data_shieldsio_mtl.json', 'w') as outfile:
-    json.dump(shieldio_data_mtl, outfile, ensure_ascii=False)
-    
-shieldio_data_mnemonics = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['publications']['Qi2PSmEAAAAJ:UeHWp8X0CEIC']['num_citations']}",
-}
-with open(f'results/gs_data_shieldsio_mnemonics.json', 'w') as outfile:
-    json.dump(shieldio_data_mnemonics, outfile, ensure_ascii=False)
-    
-shieldio_data_aanets = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['publications']['Qi2PSmEAAAAJ:u-x6o8ySG0sC']['num_citations']}",
-}
-with open(f'results/gs_data_shieldsio_aanets.json', 'w') as outfile:
-    json.dump(shieldio_data_aanets, outfile, ensure_ascii=False)
-    
-shieldio_data_e3bm = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['publications']['Qi2PSmEAAAAJ:d1gkVwhDpl0C']['num_citations']}",
-}
-with open(f'results/gs_data_shieldsio_e3bm.json', 'w') as outfile:
-    json.dump(shieldio_data_e3bm, outfile, ensure_ascii=False)
-   
-shieldio_data_lst = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['publications']['Qi2PSmEAAAAJ:2osOgNQ5qMEC']['num_citations']}",
-}
-with open(f'results/gs_data_shieldsio_lst.json', 'w') as outfile:
-    json.dump(shieldio_data_lst, outfile, ensure_ascii=False)
+PROFILE_ID = os.getenv("GOOGLE_SCHOLAR_PROFILE_ID", "IaBa8RAAAAAJ")
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT = ROOT / "assets" / "data" / "google-scholar-citations.json"
+
+
+def main():
+    author = scholarly.search_author_id(PROFILE_ID)
+    author = scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
+
+    papers = {}
+    for publication in author.get("publications", []):
+        bibliographic_data = publication.get("bib", {})
+        title = bibliographic_data.get("title")
+        if title:
+            papers[title] = int(publication.get("num_citations", 0))
+
+    payload = {
+        "source": "Google Scholar",
+        "profile_id": PROFILE_ID,
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "total_citations": int(author.get("citedby", 0)),
+        "papers": papers,
+    }
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Saved {len(papers)} paper citation counts to {OUTPUT}")
+
+
+if __name__ == "__main__":
+    main()

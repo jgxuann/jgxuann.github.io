@@ -1,7 +1,16 @@
 {
   "source": "Google Scholar",
   "profile_id": "IaBa8RAAAAAJ",
-  "updated_at": null,
-  "total_citations": null,
-  "papers": {}
+  "updated_at": "2026-11-11T14:14:28.961502+00:00",
+  "total_citations": 65,
+  "papers": {
+    "When Trust Collides: Exploring Human-LLM Cooperation Intention through the Prisoner’s Dilemma": 25,
+    "ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations": 15,
+    "IAD-Net: A Plug-and-Play Incongruence-Aware Decoupling Module for Multimodal Emotion Recognition": 9,
+    "Effective Fixed-Time Control for Constrained Nonlinear System": 5,
+    "Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality": 5,
+    "Cooperative Switched Formation Control of Autonomous Vehicles: An Event-triggered Approach to Input Saturation and Time-delay Challenges": 4,
+    "Flow-Aware Diffusion for Real-Time VR Restoration: Mitigating Cybersickness with Enhanced Spatiotemporal Coherence": 2,
+    "QA-MoE: Towards a Continuous Reliability Spectrum with Quality-Aware Mixture of Experts for Robust Multimodal Sentiment Analysis": 0
+  }
 }

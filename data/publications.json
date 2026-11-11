@@ -1,0 +1,95 @@
+{
+  "publications": [
+    {
+      "id": "J1",
+      "category": "journal",
+      "cite_key": "jiang2026whentrustcollides",
+      "title": "When Trust Collides: Exploring Human-LLM Cooperation Intention through the Prisoner's Dilemma",
+      "authors": ["Guanxuan Jiang", "Shirao Yang", "Yuyang Wang", "Pan Hui"],
+      "venue": "International Journal of Human-Computer Studies",
+      "year": 2026,
+      "volume": "209",
+      "pages": "103740",
+      "doi": "10.1016/j.ijhcs.2026.103740",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1071581926000157"
+    },
+    {
+      "id": "J2",
+      "category": "journal",
+      "cite_key": "jiang2026flowaware",
+      "title": "Flow-Aware Diffusion for Real-Time VR Restoration: Mitigating Cybersickness with Enhanced Spatiotemporal Coherence",
+      "authors": ["Yitong Zhu", "Guanxuan Jiang", "Zhuowei Liang", "Yuyang Wang"],
+      "venue": "IEEE Transactions on Visualization and Computer Graphics",
+      "year": 2026,
+      "doi": "10.1109/TVCG.2026.3697013",
+      "url": "https://doi.org/10.1109/TVCG.2026.3697013"
+    },
+    {
+      "id": "J3",
+      "category": "journal",
+      "cite_key": "wang2026cooperativeswitchedformationcontrol",
+      "title": "Cooperative Switched Formation Control of Autonomous Vehicles: An Event-triggered Approach to Input Saturation and Time-delay Challenges",
+      "authors": ["Ziming Wang", "Guanxuan Jiang", "Yihuai Zhang", "Karl H. Johansson", "Apostolos I. Rikos"],
+      "venue": "arXiv",
+      "year": 2026,
+      "arxiv": "2606.11971",
+      "url": "https://arxiv.org/abs/2606.11971"
+    },
+    {
+      "id": "C1",
+      "category": "conference",
+      "cite_key": "jiang2024blending",
+      "title": "Blending Social Interaction Realms: Harmonizing Online and Offline Interactions through Augmented Reality",
+      "authors": ["Guanxuan Jiang", "Yuyang Wang", "Yue Li", "Nafise Sadat Moosavi", "Pan Hui"],
+      "venue": "Proceedings of the 17th International Symposium on Visual Information Communication and Interaction",
+      "year": 2024,
+      "pages": "23",
+      "doi": "10.1145/3678698.3678700",
+      "url": "https://doi.org/10.1145/3678698.3678700"
+    },
+    {
+      "id": "C2",
+      "category": "conference",
+      "cite_key": "jiang2024chemistryvr",
+      "title": "ChemistryVR: Enhancing Educational Experiences through Virtual Chemistry Lab Simulations",
+      "authors": ["Guanxuan Jiang", "Xuansheng Xia", "Yue Li", "Hai-Ning Liang", "Pan Hui"],
+      "venue": "ACM SIGGRAPH Asia 2024 Educator's Forum",
+      "year": 2024,
+      "doi": "10.1145/3680533.3697068",
+      "url": "https://doi.org/10.1145/3680533.3697068"
+    },
+    {
+      "id": "C3",
+      "category": "conference",
+      "cite_key": "gong2025effective",
+      "title": "Effective Fixed-Time Control for Constrained Nonlinear System",
+      "authors": ["Chenglin Gong", "Ziming Wang", "Guanxuan Jiang", "Xin Wang", "Yiding Ji"],
+      "venue": "2025 11th International Conference on Control, Decision and Information Technologies (CoDIT)",
+      "year": 2025,
+      "pages": "3000--3005",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11321510"
+    },
+    {
+      "id": "C4",
+      "category": "conference",
+      "cite_key": "zhu2026qamoe",
+      "title": "QA-MoE: Towards a Continuous Reliability Spectrum with Quality-Aware Mixture of Experts for Robust Multimodal Sentiment Analysis",
+      "authors": ["Yitong Zhu", "Yuxuan Jiang", "Guanxuan Jiang", "Bojing Hou", "Peng Yuan Zhou", "Ge Lin Kan", "Yuyang Wang"],
+      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics",
+      "year": 2026,
+      "arxiv": "2604.05704",
+      "url": "https://arxiv.org/abs/2604.05704"
+    },
+    {
+      "id": "C5",
+      "category": "conference",
+      "cite_key": "zhu2026iadnet",
+      "title": "IAD-Net: A Plug-and-Play Incongruence-Aware Decoupling Module for Multimodal Emotion Recognition",
+      "authors": ["Yitong Zhu", "Yuyao Wang", "Lei Han", "Guanxuan Jiang", "Zhenyu Yang", "Yuyang Wang"],
+      "venue": "arXiv",
+      "year": 2026,
+      "arxiv": "2508.02133",
+      "url": "https://arxiv.org/abs/2508.02133"
+    }
+  ]
+}

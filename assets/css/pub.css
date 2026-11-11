@@ -73,6 +73,20 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .citation-badge-value { background: #2da44e; border-radius: 0 3px 3px 0; }
 .citation-badge-total { margin-left: 4px; }
 
+.ranking-link {
+    color: #a83232;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ranking-link:hover,
+.ranking-link:focus-visible {
+    color: #d84a4a;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
 .publications ol.bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
 
 .publications ol.bibliography li .hidden p { line-height: 1.4em; margin: 10px; }

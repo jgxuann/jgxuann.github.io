@@ -1,6 +1,7 @@
 """Export per-paper citation counts from Guanxuan Jiang's Google Scholar profile."""
 
 import json
+import logging
 import os
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,8 +13,15 @@ PROFILE_ID = os.getenv("GOOGLE_SCHOLAR_PROFILE_ID", "IaBa8RAAAAAJ")
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "assets" / "data" / "google-scholar-citations.json"
 
+# GitHub-hosted runners are often rate-limited by Google Scholar.  Fail quickly
+# with useful logs instead of leaving the workflow waiting through many retries.
+scholarly.set_timeout(10)
+scholarly.set_retries(2)
+
 
 def main():
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    print(f"Fetching Google Scholar profile {PROFILE_ID}...")
     author = scholarly.search_author_id(PROFILE_ID)
     author = scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
 

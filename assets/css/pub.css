@@ -74,14 +74,14 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .citation-badge-total { margin-left: 4px; }
 
 .ranking-link {
-    color: #a83232;
+    color: #a83232 !important;
     font-weight: 700;
     text-decoration: none;
 }
 
 .ranking-link:hover,
 .ranking-link:focus-visible {
-    color: #d84a4a;
+    color: #d84a4a !important;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;

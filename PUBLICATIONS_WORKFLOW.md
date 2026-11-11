@@ -27,3 +27,12 @@ python3 scripts/generate_bibtex.py
 The generated [BibTeX page](bibtex.html) supports copying individual records and links to `publications.bib` for downloading all records.
 
 Review new metadata before committing, especially authors, venue, volume, pages, and publication year. DOI records are retrieved from Crossref; arXiv records are retrieved from arXiv.
+
+## Ranking labels on the publications page
+
+All ranking labels must use the `ranking-link` class so they retain the red appearance and the hover effect. Use the same destination for every tier within a ranking system:
+
+- CCF-A / CCF-B / CCF-C: `https://www.ccf.org.cn/Academic_Evaluation/By_category/`
+- CORE A* / CORE A / CORE B / CORE C: `https://www.core.edu.au/conference-portal`
+- JCR Q1 / Q2 / Q3 / Q4: `https://www.sci365.cn/tools/journal-search/`
+- THCPL A / B / C: `https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf`

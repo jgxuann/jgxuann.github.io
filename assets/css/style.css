@@ -194,6 +194,15 @@ papertitle {
   padding: 20px;
 }
 
+header h1 .name-logo {
+  width: 0.84em;
+  height: 0.84em;
+  margin-left: 0.28em;
+  vertical-align: middle;
+  object-fit: contain;
+  border-radius: 22%;
+}
+
 #header .image.avatar {
   margin: 0 0 1em 0;
   width: 8em;

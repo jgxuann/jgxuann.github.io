@@ -575,10 +575,140 @@
       </style>
 
       <h2 style="margin: 60px 0 10px;">Selected Publications</h2>
-      <p class="research-callout-minimal">
-        For representative recent work on my research directions, please check out my
-        <a href="publications.html">Publications.</a>
-      </p>
+      <style>
+        .selected-publications-grid {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr);
+          gap: 18px;
+          align-items: stretch;
+        }
+
+        .selected-publication {
+          display: grid;
+          grid-template-columns: 230px minmax(0, 1fr);
+          gap: 18px;
+          align-items: start;
+          padding: 14px;
+          border: 1px solid #e3e6ea;
+          border-radius: 10px;
+          background: #fff;
+          box-shadow: 0 3px 12px rgba(19, 41, 75, 0.07);
+        }
+
+        .selected-publication-image {
+          display: block;
+          width: 100%;
+          aspect-ratio: 16 / 9;
+          object-fit: cover;
+          margin: 0;
+          border-radius: 6px;
+          border: 1px solid #e1e1e1;
+        }
+
+        .selected-publication > a {
+          display: block;
+          width: 100%;
+        }
+
+        .selected-publication-title {
+          margin: 0 0 8px;
+        }
+
+        .selected-publication-title a {
+          color: #13294B;
+          font-size: 0.98rem;
+          font-weight: 600;
+          line-height: 1.35;
+          text-decoration: none;
+        }
+
+        .selected-publication-title a:hover,
+        .selected-publication-title a:focus-visible {
+          color: #2376b7;
+          text-decoration: underline;
+          text-underline-offset: 3px;
+        }
+
+        .selected-publication-authors,
+        .selected-publication-venue {
+          margin: 0 0 7px;
+          line-height: 1.45;
+          font-size: 0.9rem;
+        }
+
+        .selected-publication-venue {
+          color: #555;
+        }
+
+        .publication-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 6px;
+          width: 100%;
+        }
+
+        .publication-tags {
+          margin: 10px 0 13px;
+        }
+
+        .publication-tag {
+          padding: 2px 7px;
+          border-radius: 3px;
+          background: #13294B;
+          color: #fff;
+          font-size: 0.72rem;
+          font-weight: 600;
+          letter-spacing: 0.02em;
+        }
+
+        .publication-tag.gold {
+          background: #B58500;
+        }
+
+        .all-publications-link {
+          margin: 10px 2px 0;
+          text-align: right;
+          font-size: 0.9rem;
+        }
+
+        @media print, screen and (max-width: 600px) {
+          .selected-publication {
+            grid-template-columns: 1fr;
+          }
+
+          .selected-publication > a {
+            max-width: 320px;
+          }
+        }
+
+      </style>
+
+      <div class="selected-publications-grid">
+        <article class="selected-publication">
+          <a href="https://www.sciencedirect.com/science/article/pii/S1071581926000157" target="_blank"
+            rel="noopener" aria-label="Open the IJHCS paper">
+            <img class="selected-publication-image" src="./assets/img/ijhcs-prisoners-dilemma.gif"
+              alt="Illustration of a human and an AI agent playing the Prisoner's Dilemma">
+          </a>
+          <div>
+            <h3 class="selected-publication-title"><a
+                href="https://www.sciencedirect.com/science/article/pii/S1071581926000157" target="_blank"
+                rel="noopener">When Trust Collides: Exploring Human-LLM Cooperation Intention through the Prisoner's
+                Dilemma</a></h3>
+            <p class="selected-publication-authors"><strong>Guanxuan Jiang</strong>, Shirao Yang, Yuyang Wang, Pan Hui</p>
+            <p class="selected-publication-venue"><em>International Journal of Human-Computer Studies (IJHCS)</em>,
+              2026</p>
+            <div class="publication-tags" aria-label="Publication rankings">
+              <span class="publication-tag">IJHCS</span>
+              <span class="publication-tag gold">CCF-A</span>
+              <span class="publication-tag gold">JCR Q1</span>
+              <span class="publication-tag gold">CORE A</span>
+              <span class="publication-tag gold">THCPL A</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="all-publications-link"><a href="publications.html">View all publications →</a></p>
 
 
       <h2 style="margin: 60px 0 10px;">Education</h2>

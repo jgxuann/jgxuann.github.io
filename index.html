@@ -276,8 +276,8 @@
         along two complementary and mutually reinforcing directions: exploring and formalizing the key factors and
         mechanisms underlying human interaction with intelligent systems, and leveraging these insights to develop
         computational methods and technical frameworks that optimize interaction in practical settings, including
-        <strong>multimodal learning</strong>, <strong>machine learning</strong>, <strong>deep learning</strong>,
-        <strong>reinforcement learning</strong>, <strong>computational models</strong>, and related methods.
+        multimodal learning, machine learning, deep learning, reinforcement learning, computational models, and related
+        methods.
       </div>
 
 
@@ -583,15 +583,17 @@
       <style>
         .selected-publications-grid {
           display: grid;
-          grid-template-columns: repeat(2, minmax(0, 1fr));
+          grid-template-columns: minmax(0, 1fr);
           gap: 18px;
           align-items: stretch;
         }
 
         .selected-publication {
-          display: flex;
-          flex-direction: column;
-          padding: 16px;
+          display: grid;
+          grid-template-columns: 230px minmax(0, 1fr);
+          gap: 18px;
+          align-items: start;
+          padding: 14px;
           border: 1px solid #e3e6ea;
           border-radius: 10px;
           background: #fff;
@@ -600,12 +602,17 @@
 
         .selected-publication-image {
           display: block;
-          width: 128px;
-          height: 150px;
+          width: 100%;
+          aspect-ratio: 16 / 9;
           object-fit: cover;
-          margin: 0 auto 14px;
+          margin: 0;
           border-radius: 6px;
           border: 1px solid #e1e1e1;
+        }
+
+        .selected-publication > a {
+          display: block;
+          width: 100%;
         }
 
         .selected-publication-title {
@@ -671,12 +678,12 @@
 
         @media print,
         screen and (max-width: 600px) {
-          .selected-publications-grid {
+          .selected-publication {
             grid-template-columns: 1fr;
           }
 
-          .selected-publication-image {
-            width: 140px;
+          .selected-publication > a {
+            max-width: 320px;
           }
         }
       </style>

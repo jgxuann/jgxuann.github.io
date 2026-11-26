@@ -116,7 +116,8 @@
 
       <a class="normal" href="publications.html">Publications</a>
 
-      <a class="normal" href="index.html"><img class="home-logo" src="./assets/img/G_new_logo_transparent.png" alt="">Home</a>
+      <a class="normal" href="index.html"><img class="home-logo" src="./assets/img/G_new_logo_transparent.png"
+          alt="">Home</a>
 
       <!-- <a class="normal" href="./talks/">Talks</a> -->
 
@@ -238,8 +239,9 @@
           University of Science and Technology (Guangzhou)</a>. I
         am supervised by <a href="https://panhui.people.ust.hk">Prof. Pan Hui</a> and co-supervised by <a
           href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=421"> Prof. Yuyang Wang</a>. During my
-        MPhil period, my supervisors are Prof. Pan Hui and <a
-          href="https://seng.hkust.edu.hk/about/people/faculty/fugee-tsung">Prof. Fugee Tsung</a>.
+        MPhil period, my supervi
+        sors are Prof. Pan Hui and <a href="https://seng.hkust.edu.hk/about/people/faculty/fugee-tsung">Prof. Fugee
+          Tsung</a>.
 
 
       <p>Previously, I completed my BSc. (Hons) in Computer Science at <a href="https://www.sheffield.ac.uk/?home">
@@ -255,8 +257,9 @@
       </p>
 
       <p>My research interests lie at the intersection of <strong>Human-Computer
-          Interaction</strong>, <strong>Ubiquitous Computing</strong>, <strong>Multimodel Input Techniques</strong> and
-        <strong>Human Behavior Modeling</strong> with a focus
+          Interaction</strong>, <strong>Ubiquitous Computing</strong>, <strong>Multimodel Input Techniques</strong>,
+        <strong>Human Behavior Modeling</strong> and
+        <strong>Extended Reality</strong> with a focus
         on the technical foundations of
         human-centered intelligence. More specifically, my research focuses on developing computational models to
         charaterize the
@@ -578,17 +581,15 @@
       <style>
         .selected-publications-grid {
           display: grid;
-          grid-template-columns: minmax(0, 1fr);
+          grid-template-columns: repeat(2, minmax(0, 1fr));
           gap: 18px;
           align-items: stretch;
         }
 
         .selected-publication {
-          display: grid;
-          grid-template-columns: 230px minmax(0, 1fr);
-          gap: 18px;
-          align-items: start;
-          padding: 14px;
+          display: flex;
+          flex-direction: column;
+          padding: 16px;
           border: 1px solid #e3e6ea;
           border-radius: 10px;
           background: #fff;
@@ -597,17 +598,12 @@
 
         .selected-publication-image {
           display: block;
-          width: 100%;
-          aspect-ratio: 16 / 9;
+          width: 128px;
+          height: 150px;
           object-fit: cover;
-          margin: 0;
+          margin: 0 auto 14px;
           border-radius: 6px;
           border: 1px solid #e1e1e1;
-        }
-
-        .selected-publication > a {
-          display: block;
-          width: 100%;
         }
 
         .selected-publication-title {
@@ -671,22 +667,22 @@
           font-size: 0.9rem;
         }
 
-        @media print, screen and (max-width: 600px) {
-          .selected-publication {
+        @media print,
+        screen and (max-width: 600px) {
+          .selected-publications-grid {
             grid-template-columns: 1fr;
           }
 
-          .selected-publication > a {
-            max-width: 320px;
+          .selected-publication-image {
+            width: 140px;
           }
         }
-
       </style>
 
       <div class="selected-publications-grid">
         <article class="selected-publication">
-          <a href="https://www.sciencedirect.com/science/article/pii/S1071581926000157" target="_blank"
-            rel="noopener" aria-label="Open the IJHCS paper">
+          <a href="https://www.sciencedirect.com/science/article/pii/S1071581926000157" target="_blank" rel="noopener"
+            aria-label="Open the IJHCS paper">
             <img class="selected-publication-image" src="./assets/img/ijhcs-prisoners-dilemma.gif"
               alt="Illustration of a human and an AI agent playing the Prisoner's Dilemma">
           </a>
@@ -695,7 +691,8 @@
                 href="https://www.sciencedirect.com/science/article/pii/S1071581926000157" target="_blank"
                 rel="noopener">When Trust Collides: Exploring Human-LLM Cooperation Intention through the Prisoner's
                 Dilemma</a></h3>
-            <p class="selected-publication-authors"><strong>Guanxuan Jiang</strong>, Shirao Yang, Yuyang Wang, Pan Hui</p>
+            <p class="selected-publication-authors"><strong>Guanxuan Jiang</strong>, Shirao Yang, Yuyang Wang, Pan Hui
+            </p>
             <p class="selected-publication-venue"><em>International Journal of Human-Computer Studies (IJHCS)</em>,
               2026</p>
             <div class="publication-tags" aria-label="Publication rankings">

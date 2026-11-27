@@ -1,11 +1,2 @@
-# scholarly 1.5.1 forwards Selenium's `sameSite` cookie field to Requests,
-# which raises `create_cookie() got unexpected keyword arguments`.  1.7.11
-# strips browser-only cookie fields before copying cookies into the session.
-scholarly==1.7.11
-
-# Keep scholarly's unbounded transitive dependencies on versions compatible
-# with its 1.7.x API.  Newer httpx versions removed the `proxies` argument and
-# bibtexparser 2.x changed the parser API used by scholarly.
-selenium==4.27.1
-httpx==0.27.2
-bibtexparser==1.4.3
+beautifulsoup4==4.15.0
+requests==2.34.2
